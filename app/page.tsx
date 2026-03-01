@@ -23,19 +23,16 @@ export default function Home() {
         {/* Hero */}
         <HeroCard />
 
-        {/* Primary Actions */}
+        {/* Social + Copy Links + Connect Box */}
+        <div className="pt-2">
+          <SocialLinks />
+        </div>
+
+        {/* Primary Actions (Save Contact button) */}
         <PrimaryActions />
 
         {/* Divider */}
         <div className="relative z-10 w-full max-w-md mx-auto px-4 my-5">
-          <hr className="divider" />
-        </div>
-
-        {/* Social + Copy Links */}
-        <SocialLinks />
-
-        {/* Divider */}
-        <div className="relative z-10 w-full max-w-md mx-auto px-4 mb-5">
           <hr className="divider" />
         </div>
 

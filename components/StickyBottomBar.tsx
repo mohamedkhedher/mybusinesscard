@@ -2,8 +2,6 @@
 
 import { PROFILE } from "@/lib/profile";
 
-const waMessage = encodeURIComponent(PROFILE.whatsappPrefill);
-
 export default function StickyBottomBar() {
     return (
         <div
