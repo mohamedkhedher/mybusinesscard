@@ -63,10 +63,7 @@ export default function HeroCard() {
                 </p>
 
                 {/* Bio */}
-                <div
-                    className="glass-card px-4 py-4 text-left w-full"
-                    style={{ maxWidth: 400 }}
-                >
+                <div className="glass-card px-4 py-4 text-left w-full">
                     <BioExpandable />
                 </div>
             </div>

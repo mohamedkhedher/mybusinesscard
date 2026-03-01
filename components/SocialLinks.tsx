@@ -7,10 +7,10 @@ const waMessage = encodeURIComponent(PROFILE.whatsappPrefill);
 
 export default function SocialLinks() {
     return (
-        <div className="relative z-10 w-full max-w-md mx-auto px-4 mb-6 flex flex-col gap-3">
+        <div className="relative z-10 w-full max-w-md mx-auto px-4 flex flex-col gap-4">
             {/* Connect icons card */}
             <div className="glass-card p-4">
-                <h2 className="section-heading mb-3">Connect</h2>
+                <h2 className="section-heading mb-3">Let&apos;s Connect</h2>
 
                 {/* Row 1: WhatsApp, Call, Email, Book */}
                 <div className="grid grid-cols-4 gap-2.5 mb-2.5">
