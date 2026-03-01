@@ -9,7 +9,7 @@ export default function HeroCard() {
     return (
         <div className="relative z-10 w-full max-w-md mx-auto px-4 pt-10 pb-4">
             {/* Avatar / Logo area */}
-            <div className="flex flex-col items-center text-center mb-6">
+            <div className="flex flex-col items-center text-center">
                 {/* Avatar circle with real photo */}
                 <div
                     className="relative mb-4"

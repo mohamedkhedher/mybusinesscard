@@ -176,7 +176,7 @@ export default function LeadCaptureForm() {
 
     if (submitted) {
         return (
-            <div className="relative z-10 w-full max-w-md mx-auto px-4 mb-6">
+            <div className="relative z-10 w-full max-w-md mx-auto px-4">
                 <div className="glass-card p-6 text-center animate-fade-in">
                     <div
                         className="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4"
@@ -205,7 +205,7 @@ export default function LeadCaptureForm() {
     }
 
     return (
-        <div className="relative z-10 w-full max-w-md mx-auto px-4 mb-6">
+        <div className="relative z-10 w-full max-w-md mx-auto px-4">
             <div className="glass-card p-5">
                 <h2 className="section-heading mb-1">Send me your card</h2>
                 <p className="text-xs mb-4" style={{ color: "var(--text-muted)" }}>

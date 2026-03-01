@@ -6,7 +6,7 @@ interface PrimaryActionsProps {
 
 export default function PrimaryActions({ compact = false }: PrimaryActionsProps) {
     return (
-        <div className={`relative z-10 w-full max-w-md mx-auto px-4 w-full ${compact ? "" : "mb-2"}`}>
+        <div className="relative z-10 w-full max-w-md mx-auto px-4">
             {/* Primary CTA */}
             {!compact && (
                 <a
